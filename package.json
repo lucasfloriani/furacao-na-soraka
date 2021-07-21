@@ -1,0 +1,25 @@
+{
+  "name": "furacao-na-soraka",
+  "version": "1.0.0",
+  "description": "Furacão na soraka",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucasfloriani/furacao-na-soraka.git"
+  },
+  "author": "Lucas Floriani <lucas.floriane@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "furacao-na-soraka": "./src/cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/lucasfloriani/furacao-na-soraka/issues"
+  },
+  "homepage": "https://github.com/lucasfloriani/furacao-na-soraka#readme",
+  "dependencies": {
+    "meow": "^8.0.0"
+  }
+}
